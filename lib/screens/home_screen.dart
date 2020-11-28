@@ -13,7 +13,6 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  //List<HomeData> _dataList;
   FirebaseUser _myUser;
   FirebaseAuth _auth;
   bool loading = true;
